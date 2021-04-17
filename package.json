@@ -1,11 +1,11 @@
 {
-  "name": "ChatApp",
+  "name": "chatapp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "server/server.js"
+    "start": "node server/server.js"
   },
   "engines":{
     "node": "12.16.3"
@@ -17,10 +17,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ommiy2j/ChatApp/issues"
-  },
-  "homepage": "https://github.com/ommiy2j/ChatApp#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
